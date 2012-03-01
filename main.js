@@ -1,8 +1,8 @@
 function on() {
 	if(navigator.onLine) {
-		document.body.style.background = "green";
+		document.body.style.border = "green solid thick";
 	} else {
-		document.body.style.background = "red";
+		document.body.style.border = "red solid thick";
 	}
 	setTimeout(on, 2000);
 }
