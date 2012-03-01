@@ -10,9 +10,16 @@ body {font-family: sans-serif;}
 </head>
 <body onload="on();">
 
-<h1><a href="doesnotexit">Random Test fallback</a></h1>
 
-<p><a href="http://www.flickr.com/photos/hendry/6796855748">BUG screenshot</a></p>
+<h1>Test steps</h1>
+
+<ol>
+<li>Load this page, <a href="offline.manifest">offline.manifest</a> contents should have downloaded in the background</li>
+<li>Go offline, notice how border should turn red from green</li>
+<li>Try a <a href="doesnotexit">random Test fallback</a> to watch a crappy video</li>
+</ol>
+
+<p><a href="http://www.flickr.com/photos/hendry/6796855748">BUG screenshot</a> of Chrome failing to download OGG file</p>
 
 <h1><a href="https://github.com/kaihendry/appcache-experiment#readme">README on github</a></h1>
 <iframe style="width:100%; height: 30em;" src="README.md"></iframe>

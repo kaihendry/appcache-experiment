@@ -2,12 +2,16 @@
 
 [Can't seem to get much joy out of
 navigator.onLine](http://twitter.com/#!/kaihendry/status/175078314799677440) on
-Chrome or Firefox.
+Chrome or Firefox on Desktops.
+
+However on Android, trigger Airplane mode quickly makes it change to a red border colour.
+
+Demo site: http://demo2.webconverger.com
 
 ## Test cache idea
 
 Load large file in the background to play back later. Play it back by going
-offline and going to a random URL on the `demo2.webconverger.com` site to
+offline and going to a random URL on the http://demo2.webconverger.com site to
 trigger fallback.
 
 # Chromium
